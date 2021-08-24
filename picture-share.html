@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCdinos - CameraResult</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body class="camera-result-container-body">
+    <div class="wrap">
+        <header class="main-header white">
+            <div class="clock">
+                <span>
+                </span>
+                <p>
+                </p>
+            </div>
+            <div class="qr">
+                <div class="qr-img">
+                    <img src="./img/common/qr.png" alt="qr-code">
+                </div>
+                <p>챗봇 연결</p>
+            </div>
+        </header>
+        <div class="camera-title white">
+            <h2>
+                사진 보내기
+            </h2>
+        </div>
+        <div class="picture-share-container">
+            <div class="picture-wrap">
+                <img src="./img/sub/frame/frame-02-01.png" alt="frame">
+                <img class="people" src="./img/sub/people/people02.png" alt="people">
+                <img class="people" src="./img/sub/people/people02-01.png" alt="people">
+                <img src="./img/sub/frame/frame-02.png" alt="frame">
+            </div>
+        </div>
+        <button class="share-link">
+            사진 보내기 <i></i>
+        </button>
+        <div class="event-popup">
+            <div class="event-popup-text">
+                <h4>사인볼 증정 이벤트</h4>
+                <p>닮은 꼴  95% 이상  방문객에게 사인볼 증정 </p>
+            </div>
+            <img src="./img/common/ball.png" alt="ball">
+        </div>
+        
+        <div class="share-popup-dim"></div>
+        <div class="share-popup">
+            <button class="share-popup-close"><i></i></button>
+            <p>
+                사진 보낼 곳을 선택해 주세요.
+            </p>
+            <ul>
+                <li>
+                    <a href="./picture-success.html">
+                        <img src="./img/sub/share/share-icon01.png" alt="dinos">
+                    </a>
+                    <span>NC 다이노스앱</span>
+                </li>
+                <li>
+                    <a href="./picture-success.html">
+                        <img src="./img/sub/share/share-icon02.png" alt="kakaotalk">
+                    </a>
+                    <span>카카오톡</span>
+                </li>
+                <li>
+                    <a href="./picture-success.html">
+                        <img src="./img/sub/share/share-icon03.png" alt="email">
+                    </a>
+                    <span>이메일</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/sharePopup.js"></script>
+    <script src="./js/clock.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "apple-600";
+    src: url("../font/AppleSDGothicNeoB.ttf") format("truetype");
+}
+@font-face{
+    font-family: "apple-500";
+    src: url("../font/AppleSDGothicNeoM.ttf") format("truetype");
+}
+@font-face{
+    font-family: "apple-400";
+    src: url("../font/AppleSDGothicNeoR.ttf") format("truetype");
+}
